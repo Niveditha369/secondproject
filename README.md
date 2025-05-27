@@ -1,4 +1,5 @@
 Project: Basic Network Scanner (Sniff_Tool.py)
+
 Overview:
 The Sniff_Tool.py script is a command-line utility designed to scan a specified local network segment. It identifies active devices by sending ARP requests and listening for responses, providing a list of connected devices with their local IP addresses and corresponding MAC addresses. The enhanced version also attempts to resolve hostnames for better identification.
 
@@ -49,9 +50,9 @@ Here's a sample output you might see when running the enhanced Sniff_Tool.py on 
 Scanning network for active devices on 192.168.1.1/24...
 
 Active devices found:
--------------------------------------------------------
+
 IP Address           MAC Address        Hostname
--------------------------------------------------------
+
 192.168.1.1          7c:a9:6b:07:6e:14  MyHomeRouter
 192.168.1.3          88:11:96:ff:79:a0  LivingRoomSpeaker
 192.168.1.10         68:db:f5:84:80:7f  My-Smartphone
